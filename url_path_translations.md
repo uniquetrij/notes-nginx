@@ -1,3 +1,5 @@
+Taken from TARUN LALWANI's blog
+
 [Understanding Nginx proxy_pass and url path translations](https://tarunlalwani.com/post/nginx-proxypass-server-paths/)
 ========================================================
 
@@ -51,4 +53,4 @@ Below table shows different combinations of the `location` and the `proxy_pass` 
 | 12  | /   | http://127.0.0.1:8080/app2/ | /test12/abc/test | /app2/test12/abc/test |
 
 > **Note**: When you have a **trailing** `/` in the `proxy_pass` url then the `url` mentioned in the location block is removed from the actual url starting and rest of the pass is sent to the proxied server as seen in **Case #4**
-> 
+
